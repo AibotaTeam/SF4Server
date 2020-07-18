@@ -1,0 +1,37 @@
+DenyMessage: §f未知的指令. 输入 "/help" 查看帮助.
+Commands:
+- back
+- pl
+- fly
+- plugins
+- version
+- ver
+- '?'
+- icanhasbukkit
+- about
+- 'bukkit:ver'
+- 'bukkit:plugins'
+- 'bukkit:versions'
+- 'bukkit:help'
+- 'bukkit:about'
+- 'bukkit:?'
+- 'bukkit:pl'
+- topography
+Group:
+  '1':
+    PermissionNode: commanddeny.skyfactory4.vip1
+    AllowCommands:
+    - back
+  '2':
+    PermissionNode: commanddeny.skyfactory4.vip2
+    AllowCommands:
+    - back
+    AllowPerms:
+    - keepitems.keepxp
+  '3':
+    PermissionNode: commanddeny.skyfactory4.vip3
+    AllowCommands:
+    - back
+    AllowPerms:
+    - keepitems.keep
+    - keepitems.keepxp

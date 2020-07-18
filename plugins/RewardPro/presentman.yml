@@ -1,0 +1,169 @@
+# ==================================== #
+# 
+# RewardPro 4.4.1
+# A complete reward solution.
+# (c) MovingDev
+# 
+# ==================================== #
+# 
+# Thank you for using the plugin! 
+# If you like the plugin, please rate it with 5 stars on SpigotMc!
+# 
+# ==================================== #
+#           Settings 
+# ==================================== #
+# You see the full documentation of this file here: 
+# https://pastebin.com/ya07UrGd
+# 
+# ==================================== #
+#         Items/Materials 
+# ==================================== #
+# MineCraft 1.8:  https://helpch.at/docs/1.8/org/bukkit/Material.html 
+# Minecraft 1.14: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html 
+
+MyFirstPresent:
+  ItemType: PRESENT
+  Title: '&6高级会员&c礼物'
+  Slot: 1
+  ClaimReward:
+    Permission: reward.rank2
+    Commands:
+    - eco give [Player] 1000
+    - minecraft:give [Player] appliedenergistics2:storage_cell_16k 1
+    - minecraft:give [Player] appliedenergistics2:fluid_storage_cell_16k 1
+    - minecraft:give [Player] inspirations:mulch 4 3
+    - minecraft:give [Player] nuclearcraft:solar_panel_advanced 2
+    - minecraft:give [Player] mysticalagriculture:crafting 16 3
+    - minecraft:give [Player] minecraft:emerald 4
+    - minecraft:give [Player] diamond 16
+    - crate key [Player] 中级抽奖箱 1
+    - crate key [Player] 高级抽奖箱 1
+    - clock refresh [Player]
+    Particle: FLAME
+    CloseUIAfterClaiming: false
+  ActiveReward:
+    Item: STORAGE_MINECART
+    Amount: 1
+    Glow: false
+    Lore:
+    - '&7[Player] 这个礼物是给&6高级会员及以上的会员&7准备的'
+    - '&3在钟表菜单内商城购买会员组'
+    - '&c请清理背包以确保礼物可以被接收'
+  InactiveReward:
+    Item: MINECART
+    Amount: 1
+    Glow: false
+    Lore:
+    - '&c[Player]，你已经领取过这个奖励了!'
+    - '&7冷却时间：'
+  Cooldown:
+    Years: 0
+    Months: 0
+    Weeks: 0
+    Days: 7
+    Hours: 0
+    Minutes: 0
+    Seconds: 0
+    DateFormat: '%days天%hours小时%minutes分钟'
+    RewardCanBeClaimed: '&a现在可以领取'
+PresentmanItem2:
+  ItemType: PRESENT
+  Title: '&c至尊会员&c礼物'
+  Slot: 7
+  ClaimReward:
+    Permission: reward.rank3
+    Commands:
+    - eco give [Player] 1000
+    - minecraft:give [Player] appliedenergistics2:storage_cell_64k 1
+    - minecraft:give [Player] appliedenergistics2:fluid_storage_cell_64k 1
+    - minecraft:give [Player] inspirations:mulch 4 4
+    - minecraft:give [Player] nuclearcraft:solar_panel_du 2
+    - minecraft:give [Player] mysticalagriculture:crafting 16 4
+    - minecraft:give [Player] minecraft:emerald 8
+    - minecraft:give [Player] diamond 32
+    - crate key [Player] 高级抽奖箱 1
+    - crate key [Player] 终级抽奖箱 1
+    - clock refresh [Player]
+    CloseUIAfterClaiming: false
+  ActiveReward:
+    Item: STORAGE_MINECART
+    Amount: 1
+    Glow: false
+    Lore:
+    - '&7这个礼物是给&c至尊会员&7准备的'
+    - '&3在钟表菜单内商城购买会员组'
+    - '&c请清理背包以确保礼物可以被接收'
+  InactiveReward:
+    Item: MINECART
+    Amount: 1
+    Glow: false
+    Lore:
+    - '&c[Player]，你已经领取过这个奖励了!'
+    - '&7冷却时间：'
+  Cooldown:
+    Years: 0
+    Months: 0
+    Weeks: 0
+    Days: 7
+    Hours: 0
+    Minutes: 0
+    Seconds: 0
+    DateFormat: '%days天%hours小时%minutes分钟'
+    RewardCanBeClaimed: '&a现在可以领取'
+PresentmanItem3:
+  ItemType: PRESENT
+  Title: '&a初级会员&c礼物'
+  Slot: 13
+  ClaimReward:
+    Permission: reward.rank1
+    Commands:
+    - eco give [Player] 1000
+    - minecraft:give [Player] minecraft:gold_ingot 32
+    - minecraft:give [Player] minecraft:iron_ingot 32
+    - minecraft:give [Player] inspirations:mulch 4 2
+    - minecraft:give [Player] minecraft:emerald 2
+    - minecraft:give [Player] diamond 8
+    - minecraft:give [Player] mysticalagriculture:crafting 16 2
+    - minecraft:give [Player] nuclearcraft:solar_panel_basic 2
+    - crate key [Player] 普通抽奖箱 1
+    - crate key [Player] 中级抽奖箱 1
+    - clock refresh [Player]
+    CloseUIAfterClaiming: false
+  ActiveReward:
+    Item: STORAGE_MINECART
+    Amount: 1
+    Glow: false
+    Lore:
+    - '&7[Player] 这个礼物是给&a初级会员及以上的会员&7准备的'
+    - '&3在钟表菜单内商城购买会员组'
+    - '&c请清理背包以确保礼物可以被接收'
+  InactiveReward:
+    Item: MINECART
+    Amount: 1
+    Glow: false
+    Lore:
+    - '&c[Player]，你已经领取过这个奖励了!'
+    - '&7冷却时间：'
+  Cooldown:
+    Years: 0
+    Months: 0
+    Weeks: 
+    Days: 7
+    Hours: 0
+    Minutes: 0
+    Seconds: 0
+    DateFormat: '%days天%hours小时%minutes分钟'
+    RewardCanBeClaimed: '&a现在可以领取'
+PresentmanItem4:
+  ItemType: PLAYER_STATS
+  Title: '&9你好 &e[Player]'
+  Slot: 4
+  Lore:
+  - '&3你的会员组: &9%vipSystem_vipGroup%'
+  - '&3在钟表菜单内商城购买会员组'
+  - '&a========'
+REGULARITEM1:
+  ItemType: REGULAR_ITEM
+  Item: STAINED_GLASS_PANE
+  Slot: 0
+  Autofill: true

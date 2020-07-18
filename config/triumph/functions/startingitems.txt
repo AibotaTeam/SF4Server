@@ -1,0 +1,4 @@
+minecraft:give @p minecraft:torch
+minecraft:give @p tconstruct:edible
+minecraft:give @p xlfoodmod:donut
+minecraft:give @p minecraft:stick 1 0 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}

@@ -1,0 +1,21 @@
+vip1:
+  Money: 1500
+  MinInventory: 0
+  Items:
+    '1':
+      Command: crate key %player% 普通抽奖箱 1
+
+
+vip2:
+  Money: 3000
+  MinInventory: 0
+  Items:
+    '1':
+      Command: crate key %player% 中级抽奖箱 1
+      
+vip3:
+  Money: 5000
+  MinInventory: 0
+  Items:
+    '1':
+      Command: crate key %player% 高级抽奖箱 1
