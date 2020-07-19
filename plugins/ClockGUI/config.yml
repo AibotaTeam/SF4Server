@@ -279,7 +279,7 @@ GUI:
         Position: 20
         ItemID: 'EXTENDEDCRAFTING_SINGULARITY'
         Model: 7
-        Name: '&f开通&2初级会员'
+        Name: '&f开通&2初级会员(服务器间会员相通)'
         Lore:
         - '&f- &3获得&2初级会员&3称号'
         - '&f- &6每周&2初级会员&6礼物'
@@ -288,6 +288,7 @@ GUI:
         - '&f- &3获得普通抽奖钥匙1把'
         - '&f- &3聊天彩字，随身工作台'
         - '&f- &3设置4个家，随身末影箱'
+        - '&f- &3空岛大小为60*60'
         - '&5价格：1500点券'
         Cost:
           Type: PlayerPoints
@@ -303,7 +304,7 @@ GUI:
         Position: 22
         ItemID: 'EXTENDEDCRAFTING_SINGULARITY'
         Model: 48
-        Name: '&f开通&6高级会员'
+        Name: '&f开通&6高级会员(服务器间会员相通)'
         Lore:
         - '&f- &3获得&6高级会员&3称号'
         - '&f- &3继承&2初级会员&3权限'
@@ -313,6 +314,8 @@ GUI:
         - '&f- &3获得3000金币'
         - '&f- &3获得中级抽奖钥匙1把'
         - '&f- &3设置6个家'
+        - '&f- &3空岛大小为100*100'
+        - '&f- &3空岛最大人数上限为6人'
         - '&5价格：3000点券'
         Cost:
           Type: PlayerPoints
@@ -328,7 +331,7 @@ GUI:
         Position: 24
         ItemID: 'EXTENDEDCRAFTING_SINGULARITY_ULTIMATE'
         Model: 0
-        Name: '&f开通&5至尊会员'
+        Name: '&f开通&5至尊会员(服务器间会员相通)'
         Lore:
         - '&f- &3获得&5至尊会员&3称号'
         - '&f- &3继承&2高级会员&3权限'
@@ -339,6 +342,8 @@ GUI:
         - '&f- &3获得5000金币'
         - '&f- &3获得高级抽奖钥匙1把'
         - '&f- &3设置8个家'
+        - '&f- &3空岛大小为200*200'
+        - '&f- &3空岛最大人数上限为10人'
         - '&5价格：5000点券'
         Cost:
           Type: PlayerPoints

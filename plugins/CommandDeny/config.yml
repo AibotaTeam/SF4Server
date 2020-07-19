@@ -22,12 +22,16 @@ Group:
     PermissionNode: commanddeny.skyfactory4.vip1
     AllowCommands:
     - back
+    AllowPerms:
+    - askyblock.island.range.120
   '2':
     PermissionNode: commanddeny.skyfactory4.vip2
     AllowCommands:
     - back
     AllowPerms:
     - keepitems.keepxp
+    - askyblock.island.range.200
+    - askyblock.team.maxsize.6
   '3':
     PermissionNode: commanddeny.skyfactory4.vip3
     AllowCommands:
@@ -35,3 +39,5 @@ Group:
     AllowPerms:
     - keepitems.keep
     - keepitems.keepxp
+    - askyblock.island.range.300
+    - askyblock.team.maxsize.10

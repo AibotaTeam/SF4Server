@@ -23,14 +23,14 @@ island:
    # IF YOU ARE UPGRADING YOU MUST USE YOUR OLD VALUE EXACTLY, E.G., 110
    # OR RESET YOUR WORLD
    # Value must be an even number
-   distance: 200
+   distance: 400
 
    # Default protection range (even number). Min = 0, Recommended = 100
    # Larger values will take longer to calculate the island level
    # Admins can change protection sizes for players individually using /asadmin setrange
    # or set this permission: askyblock.island.range.<number>
    # For optimal performance, keep protection range at leat 16 blocks less than distance.
-   protectionRange: 100
+   protectionRange: 80
 
    # Start islands at these coordinates. This is where new islands will start in the
    # world. These must be a factor of your island distance, but the plugin will auto
@@ -229,16 +229,16 @@ general:
    # If the command is proceeded by [SELF] the command will be run as that player
    # E.g., - "[SELF] kit tools"
    resetcommands:
-   # - "minecraft:clear [player] minecraft:torch 0 1"
-   # - "minecraft:clear [player] tconstruct:edible 0 1"
-   # - "minecraft:clear [player] xlfoodmod:donut 0 1"
-   # - 'minecraft:clear [player] minecraft:stick 0 1 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
-   # - "minecraft:give [player] minecraft:torch"
-   # - "minecraft:give [player] tconstruct:edible"
-   # - "minecraft:give [player] xlfoodmod:donut"
-   # - 'minecraft:give [player] minecraft:stick 1 0 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
+   - "minecraft:clear [player] minecraft:torch 0 1"
+   - "minecraft:clear [player] tconstruct:edible 0 1"
+   - "minecraft:clear [player] xlfoodmod:donut 0 1"
+   - 'minecraft:clear [player] minecraft:stick 0 1 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
+   - "minecraft:give [player] minecraft:torch"
+   - "minecraft:give [player] tconstruct:edible"
+   - "minecraft:give [player] xlfoodmod:donut"
+   - 'minecraft:give [player] minecraft:stick 1 0 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
    # - "mpa notify [player] open_advancements"
-   # - "clock refresh [player]"
+   - "clock refresh [player]"
    #- "some other command"
 
    # Commands to execute when player leaves a team, either by leaving or being kicked
@@ -251,13 +251,13 @@ general:
    # Commands to execute when a player starts a new island for the first time - NOT a reset
    startcommands:
    # - "gamestage silentadd [player] tutorial"
-   # - "minecraft:give [player] minecraft:torch"
-   # - "minecraft:give [player] tconstruct:edible"
-   # - "minecraft:give [player] xlfoodmod:donut"
-   # - 'minecraft:give [player] minecraft:stick 1 0 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
+   - "minecraft:give [player] minecraft:torch"
+   - "minecraft:give [player] tconstruct:edible"
+   - "minecraft:give [player] xlfoodmod:donut"
+   - 'minecraft:give [player] minecraft:stick 1 0 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
    # - "gamestage silentadd [player] forgiving_void"
    # - "mpa notify [player] open_advancements"
-   # - "clock refresh [player]"
+   - "clock refresh [player]"
    #- "[SELF] balance"
    #- "some other command"
 
@@ -267,12 +267,12 @@ general:
    # - "minecraft:clear [player] tconstruct:edible 0 1"
    # - "minecraft:clear [player] xlfoodmod:donut 0 1"
    # - 'minecraft:clear [player] minecraft:stick 0 1 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
-   # - "minecraft:give [player] minecraft:torch"
-   # - "minecraft:give [player] tconstruct:edible"
-   # - "minecraft:give [player] xlfoodmod:donut"
-   # - 'minecraft:give [player] minecraft:stick 1 0 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
+   - "minecraft:give [player] minecraft:torch"
+   - "minecraft:give [player] tconstruct:edible"
+   - "minecraft:give [player] xlfoodmod:donut"
+   - 'minecraft:give [player] minecraft:stick 1 0 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
    # - "mpa notify [player] open_advancements"
-   # - "clock refresh [player]"
+   - "clock refresh [player]"
    #- "[SELF] balance"
    #- "some other command"
    

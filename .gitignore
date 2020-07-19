@@ -180,3 +180,6 @@ libraries/
 plugins/DailyRewards/data.db
 
 plugins/CoreProtect/database.db
+plugins/ASkyBlock/name-uuid.txt
+
+plugins/ASkyBlock/islands.yml
