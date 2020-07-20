@@ -32,8 +32,8 @@ MyFirstPresent:
     - minecraft:give [Player] appliedenergistics2:storage_cell_16k 1
     - minecraft:give [Player] appliedenergistics2:fluid_storage_cell_16k 1
     - minecraft:give [Player] inspirations:mulch 4 3
-    - minecraft:give [Player] nuclearcraft:solar_panel_advanced 2
-    - minecraft:give [Player] mysticalagriculture:crafting 16 3
+    - minecraft:give [Player] nuclearcraft:solar_panel_advanced 1
+    - minecraft:give [Player] mysticalagriculture:crafting 16 1
     - minecraft:give [Player] minecraft:emerald 4
     - minecraft:give [Player] diamond 16
     - crate key [Player] 中级抽奖箱 1
@@ -77,8 +77,8 @@ PresentmanItem2:
     - minecraft:give [Player] appliedenergistics2:storage_cell_64k 1
     - minecraft:give [Player] appliedenergistics2:fluid_storage_cell_64k 1
     - minecraft:give [Player] inspirations:mulch 4 4
-    - minecraft:give [Player] nuclearcraft:solar_panel_du 2
-    - minecraft:give [Player] mysticalagriculture:crafting 16 4
+    - minecraft:give [Player] nuclearcraft:solar_panel_du 1
+    - minecraft:give [Player] mysticalagriculture:crafting 16 2
     - minecraft:give [Player] minecraft:emerald 8
     - minecraft:give [Player] diamond 32
     - crate key [Player] 高级抽奖箱 1
@@ -123,8 +123,8 @@ PresentmanItem3:
     - minecraft:give [Player] inspirations:mulch 4 2
     - minecraft:give [Player] minecraft:emerald 2
     - minecraft:give [Player] diamond 8
-    - minecraft:give [Player] mysticalagriculture:crafting 16 2
-    - minecraft:give [Player] nuclearcraft:solar_panel_basic 2
+    - minecraft:give [Player] mysticalagriculture:crafting 16 0
+    - minecraft:give [Player] nuclearcraft:solar_panel_basic 1
     - crate key [Player] 普通抽奖箱 1
     - crate key [Player] 中级抽奖箱 1
     - clock refresh [Player]
