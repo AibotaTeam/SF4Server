@@ -13,6 +13,7 @@ interval_announcement_list:
 - checkIn
 - choujiang
 - island
+- ore
 - QQ
 - antiCheat
 - shop
@@ -29,6 +30,8 @@ announcements:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"输入/warp cj 即可传送到抽奖屋","color":"aqua"}]'
   island:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"输入/is可以创建空岛或者回到你的空岛。","color":"aqua"}]'
+  ore:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"按住~键即可使用连锁挖矿。","color":"aqua"}]'
   QQ:
   - '[{"text":"[小提示] ","color":"gold"},{"text":"进群以获取更多信息和最新的公告，QQ群：571075430。","color":"aqua"}]'
   antiCheat:
