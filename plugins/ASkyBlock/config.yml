@@ -238,6 +238,7 @@ general:
    - "minecraft:give [player] xlfoodmod:donut"
    - 'minecraft:give [player] minecraft:stick 1 0 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
    # - "mpa notify [player] open_advancements"
+   - 'clock give [player]'
    - "clock refresh [player]"
    #- "some other command"
 
@@ -257,6 +258,7 @@ general:
    - 'minecraft:give [player] minecraft:stick 1 0 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
    # - "gamestage silentadd [player] forgiving_void"
    # - "mpa notify [player] open_advancements"
+   - 'clock give [player]'
    - "clock refresh [player]"
    #- "[SELF] balance"
    #- "some other command"
@@ -272,6 +274,7 @@ general:
    - "minecraft:give [player] xlfoodmod:donut"
    - 'minecraft:give [player] minecraft:stick 1 0 {ench:[{lvl:1s,id:51s}],display:{Name:"建筑手杖"}}'
    # - "mpa notify [player] open_advancements"
+   - 'clock give [player]'
    - "clock refresh [player]"
    #- "[SELF] balance"
    #- "some other command"
